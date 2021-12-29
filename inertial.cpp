@@ -8,7 +8,6 @@ int isIntertial(int a[], int len){
     if ((len == 1) || (max_val%2 != 0)){
         return 0;
     }
-    
     int temp = 0;
     int count_odd = 0;
     for (int i=0; i<len; i++){
